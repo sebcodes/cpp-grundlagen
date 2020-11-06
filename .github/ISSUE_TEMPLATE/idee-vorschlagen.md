@@ -1,6 +1,6 @@
 ---
 name: Idee vorschlagen
-about: Schlage eine Idee für dieses Projekt vor
+about: Schlage eine Idee für eines der Themen vor was verbessert werden kann
 title: ''
 labels: ''
 assignees: ''
