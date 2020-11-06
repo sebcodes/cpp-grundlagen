@@ -1,6 +1,6 @@
 # Eine Hilfe für alle die C++ nicht ganz verstehen
 
-Hier habe ich für alle eine C++ Unterichts Referenz gemacht, wo alles was wir je gemacht haben hochgeladen und erklärt habe.
+Hier haben Marius,Tim und ich für alle eine C++ Unterichts Referenz gemacht, wo alles was wir je gemacht haben hochgeladen und erkärt ist.
 
 
 ## Verwendung
@@ -18,7 +18,7 @@ Beispiel: [Zum Discord](https://sebcodes.de/discord/)
 
 ## Probleme oder Bugs
 
-Wenn bei euch was nicht funktioniert, dann könnt ihr Marius, Tim oder mich ansprechen oder ein [Issue](https://github.com/sebcodes/cpp-basycs/issues/new) erstellen
+Wenn bei euch was nicht funktioniert, dann könnt ihr Marius, Tim oder mich ansprechen oder ein [Issue](https://github.com/sebcodes/cpp-basycs/issues/new/choose) erstellen
 
 ## Verbesserungen
 - Verbesserungen können gerne über einen Pull-Request in der Branch **revision** eingereicht werden oder auf dem Discord
