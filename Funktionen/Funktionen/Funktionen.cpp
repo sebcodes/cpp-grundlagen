@@ -19,7 +19,6 @@ int max(int zahl1, int zahl2) {
 }
 
 
-
 /*
     Das ist die Main Funktion
     der C++ Compiler benötigt sie um zu kompilieren,
