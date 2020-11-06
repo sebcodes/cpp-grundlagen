@@ -1,6 +1,6 @@
 # Eine Hilfe für alle die C++ nicht ganz verstehen
 
-Hier habe ich für alle eine C++ Unterichts Referenz gemacht, wo alles was wir je gemacht haben hochgeladen und erklärt habe.
+Hier haben Marius,Tim und ich für alle eine C++ Unterichts Referenz gemacht, wo alles was wir je gemacht haben hochgeladen und erkärt ist.
 
 
 ## Verwendung
