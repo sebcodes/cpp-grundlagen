@@ -18,7 +18,7 @@ Beispiel: [Zum Discord](https://sebcodes.de/discord/)
 
 ## Probleme oder Bugs
 
-Wenn bei euch was nicht funktioniert, dann könnt ihr Marius, Tim oder mich ansprechen oder ein [Issue](https://github.com/sebcodes/cpp-basycs/issues/new) erstellen
+Wenn bei euch was nicht funktioniert, dann könnt ihr Marius, Tim oder mich ansprechen oder ein [Issue](https://github.com/sebcodes/cpp-basycs/issues/new/choose) erstellen
 
 ## Verbesserungen
 - Verbesserungen können gerne über einen Pull-Request in der Branch **revision** eingereicht werden oder auf dem Discord
