@@ -65,6 +65,34 @@ int main()
     da sie sort definiert wird
     */
 
+    /*
+
+        Abbrechen einer Schleife mit "break"
+
+    */
+    for (int i = 0; i < 10; i++) {
+        //Wenn i = 4 ist soll die schleife abgebrochen werden.
+        if (i == 4) {
+            break;
+        }
+        std::cout << i << std::endl;
+    }
+
+    /*
+
+     Überspringen in einer Schleife mit "continue"
+
+ */
+    for (int i = 0; i < 10; i++) {
+        //Wenn i = 4 ist soll die schleife die weitere Anweisung (also das cout) 
+        //überspringen und in den nächsten Durchlauf gehen.
+        if (i == 4) {
+            continue;
+        }
+        std::cout << i << std::endl;
+    }
+
+
     (void)getchar();
     return 0;
 }
