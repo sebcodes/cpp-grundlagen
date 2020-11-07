@@ -1,5 +1,9 @@
-// Arrays.cpp : Diese Datei enthält die Funktion "main". Hier beginnt und endet die Ausführung des Programms.
-//
+/*
+* Application "Eine Hilfe für alle die C++ nicht ganz verstehen"
+* Copyright (c) sebcodes 2020
+* @author sebcodes <info@sebcodes.de>
+* @see https://github.com/sebcodes/cpp-basycs
+*/
 
 #include <iostream>
 
