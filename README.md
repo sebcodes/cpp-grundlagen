@@ -1,7 +1,13 @@
 # Eine Hilfe für alle die C++ nicht ganz verstehen
 
 Hier haben Marius,Tim und ich für alle eine C++ Unterichts Referenz gemacht, wo alles was wir je gemacht haben hochgeladen und erkärt ist.
+## Vorraussetzung
 
+Alle Projekte sind auf Visual Studio 2019
+Wenn ihr 2015 verwendet oben in der Datei noch folgendes einbinden:
+```cpp
+ #include "stdafx.h"
+```
 
 ## Verwendung
 
