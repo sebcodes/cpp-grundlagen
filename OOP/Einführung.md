@@ -1,4 +1,4 @@
-## OOP stands for Object-Oriented Programming.
+## OOP steht für Object-Oriented Programming.
 
 Bei der prozeduralen Programmierung geht es darum, Prozeduren oder Funktionen zu schreiben, die Operationen an den Daten ausführen, während bei der objektorientierten Programmierung Objekte erstellt werden, die sowohl Daten als auch Funktionen enthalten.
 
