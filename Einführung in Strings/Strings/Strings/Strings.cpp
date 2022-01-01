@@ -48,7 +48,7 @@ int main()
     */
  
     str3 = str1;
-    std::cout << "str3 : " << str3 << std::endl;
+    std::cout << "str3 : " << str3 << "\n";
 
     /*
         Erklärung der Zeile "str3 = str1"
@@ -62,7 +62,7 @@ int main()
 
     */
     str3 = str1 + str2;
-    std::cout << "str1 + str2 : " << str3 << std::endl;
+    std::cout << "str1 + str2 : " << str3 << "\n";
 
     
     /*
@@ -73,14 +73,14 @@ int main()
 
     */
 
-    std::cout << "str3.size() :  " << str3.size() << std::endl;
+    std::cout << "str3.size() :  " << str3.size() << "\n";
 
 
     /*
        Länge eines Strings mit "length"
     
     */
-    std::cout << "str3.length() :  " << str3.length() << std::endl;
+    std::cout << "str3.length() :  " << str3.length() << "\n";
 
     /*
         Zugriff auf die Strings:
@@ -88,7 +88,7 @@ int main()
         Auf Strings kann wie ein Feld (Array) zugreifen, hier ein Beispiel wie man das erste Zeichen von "Hallo" ausgibt
 
     */
-    std::cout << "Erste Zeichen von 'Hallo' :  " << str1[0] << std::endl;
+    std::cout << "Erstes Zeichen von \"Hallo\" :  " << str1[0] << "\n";
 
 
     /*
@@ -98,8 +98,8 @@ int main()
 
     */
     str3[0] = 'S';
-    std::cout << "Manipulierter String :  " << str1 << std::endl;
-    std::cout << "Erste Zeichen von 'Hallo' :  " << str1[0] << std::endl;
+    std::cout << "Manipulierter String :  " << str1 << "\n";
+    std::cout << "Erstes Zeichen von \"Hallo\" :  " << str1[0] << "\n";
 
 
     /*
@@ -114,10 +114,10 @@ int main()
         
     */
     std::string Name;
-    std::cout << "Namen eingeben: " << Name << std::endl;
+    std::cout << "Namen eingeben: " << Name << "\n";
     std::getline(std::cin, Name);
     
-    std::cout << "Eingelesener String: " << Name << std::endl;
+    std::cout << "Eingelesener String: " << Name << "\n";
 
 
     (void)getchar();

@@ -20,14 +20,14 @@ int main()
     */
 
 
-    std::cout << "Name: " << Name << std::endl;  // Gibt "Sebastian" aus
-    std::cout << "Referenz von Name: " << Benutzername << std::endl;  // Gibt "Sebastian" aus
+    std::cout << "Name: " << Name << "\n";  // Gibt "Sebastian" aus
+    std::cout << "Referenz von Name: " << Benutzername << "\n";  // Gibt "Sebastian" aus
 
 
     /*
     Speicherplatz einer Variable durch die Referenz ausgeben:
     */
-    std::cout << "Speicherplatz der Variable Name: " << &Name << std::endl;
+    std::cout << "Speicherplatz der Variable Name: " << &Name << "\n";
 
     (void)getchar();
     return 0;

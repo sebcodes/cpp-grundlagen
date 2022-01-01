@@ -8,7 +8,7 @@
 #include <iostream>
 
 /*
-    Ein Namensraum ist eine Virtuelle Abtrennung bzw. Verzeichniss um in der Objekt Orientierten Programmierung 
+    Ein Namensraum ist eine Virtuelle Abtrennung bzw. Verzeichniss um in der Objekt Orientierten Programmierung
     Klassen, Funktion und Structs usw. zu organisieren.
 
     Einen Namensraum kennt Ihr schon, den "std", in diesem sind einfach Funktionen hinterlegt áuf die man so zugreifen kann:
@@ -80,11 +80,11 @@ int main()
     */
 
     //Ausgabe : Sebastian
-    std::cout << Benutzer::BenutzerName << std::endl;
+    std::cout << Benutzer::BenutzerName << "\n";
 
     //Hier die Ausgabe von "ü" aus dem Namespace "Umlaute":
 
-    std::cout << "Unser ue : " << Umlaute::ue << std::endl;
+    std::cout << "Unser ue : " << Umlaute::ue << "\n";
 
     
     (void)getchar();

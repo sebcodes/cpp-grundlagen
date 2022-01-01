@@ -10,10 +10,10 @@
 int main()
 {
    /*
-    Ein Switch ist sozusagen eine verkürzte Schreibweise zu einem if else if else usw.
-    Jeder Case ist die Bedinung also der case mit der 1 , heißt in der if : if(day == 1)
-    Wenn der Case zutrifft wird dieser ausgeführt und mit break beendet, damit nicht die andern
-    cases geprüft werden.
+    Ein Switch ist sozusagen eine verkürzte Schreibweise zu einem if - else if - else usw.
+    Jeder Case ist die Bedingung, also der Case mit der 1 entspricht if(day == 1)
+    Wenn der Case zutrifft wird dieser ausgeführt und mit break beendet, damit nicht die anderen
+    Cases geprüft werden.
    */
 
     int day = 4;

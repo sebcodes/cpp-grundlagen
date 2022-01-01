@@ -27,11 +27,11 @@ int main()
     //Ein Beispiel eines int Pointers das beliebig viele Zufallszahlen in ein Array einließt
 
     int wert;
-    std::cout << "Anzahl der Werte :" << std::endl;
+    std::cout << "Anzahl der Werte :" << "\n";
     std::cin >> wert;
     //"nullptr" wird benötigt um den pointer zu initialisieren
     int* pointer = nullptr;
-    //Pointer zu einen neuen int array konvertieren, wenn deklariert kann vorher die "nullptr" deklaration weggelassen werden!
+    //Pointer zu einen neuen int array konvertieren, wenn er schon deklariert ist, kann vorher die "nullptr" deklaration weggelassen werden!
     pointer = new int[wert];
 
     for (size_t i = 0; i < wert; i++)
@@ -44,7 +44,7 @@ int main()
     for (size_t i = 0; i < wert; i++)
     {
         // Auf die Elemente des Arrays wird wie gewohnt zugegriffen.
-        std::cout << "Zufallszahl #" << i << " "<< pointer[i] << std::endl; 
+        std::cout << "Zufallszahl #" << i << " "<< pointer[i] << "\n"; 
     }
 
 

@@ -11,7 +11,7 @@ int main()
 {
 
 
-    /* Eine For-Schleife besteht aus 3 Bestandteilen, 
+    /* Eine For-Schleife besteht aus 3 Bestandteilen,
        1. der lokalen Variablen Definition (Variable ist nur in der Schleife gültig)
        2. der Bedingung zb. (i < 10)  -> i ist dabei die lokale variable
        3. die Inkrementierung/Dekrementierung der Lokalen Variable zb. i++ (ist das selbe wie i = i+1)
@@ -35,34 +35,34 @@ int main()
     // 9.Durchlauf: i = 8
     // 10.Durchlauf: i = 9
 
-    std::cout << "Beispiel wo immer i +1  genommen wird:" << std::endl;
+    std::cout << "Beispiel wo immer i +1  genommen wird:" << "\n";
 
     for (int i = 0; i < 10; i++)
     {
-        std::cout << "Durchlauf: " << i << std::endl;
+        std::cout << "Durchlauf: " << i << "\n";
     }
 
 
     /*
     Beispiel wo immer i + 2 genommen wird:
     */
-    std::cout << "Beispiel wo immer i + 2 genommen wird:" << std::endl;
+    std::cout << "Beispiel wo immer i + 2 genommen wird:" << "\n";
 
-    //Durchlauf:  0
-    //Durchlauf:  2
-    //Durchlauf : 4
-    //Durchlauf : 6
-    //Durchlauf : 8
+    //Durchlauf: 0
+    //Durchlauf: 2
+    //Durchlauf: 4
+    //Durchlauf: 6
+    //Durchlauf: 8
 
     for (int i = 0; i < 10; i = i+2)
     {
-        std::cout << "Durchlauf: " << i << std::endl;
+        std::cout << "Durchlauf: " << i << "\n";
     }
 
     /* 
-    wichtig : "i" oder wie ihr es nennt kann ich nur in der for verwenden, 
-    da dies eine lokale variable ist und sie ihren gültigkeitsbereich nur in der schleife hat, 
-    da sie sort definiert wird
+    Wichtig: die Schleifenvariable (hier i) kann ich nur innerhalb der for-Schleife verwenden,
+    da diese eine lokale variable ist und sie ihren gültigkeitsbereich nur in der schleife hat,
+    da sie dort definiert wird
     */
 
     /*
@@ -75,21 +75,21 @@ int main()
         if (i == 4) {
             break;
         }
-        std::cout << i << std::endl;
+        std::cout << i << "\n";
     }
 
     /*
 
-     Überspringen in einer Schleife mit "continue"
+        Überspringen in einer Schleife mit "continue"
 
- */
+    */
     for (int i = 0; i < 10; i++) {
-        //Wenn i = 4 ist soll die schleife die weitere Anweisung (also das cout) 
+        //Wenn i = 4 ist soll die schleife die weitere Anweisung (also das cout)
         //überspringen und in den nächsten Durchlauf gehen.
         if (i == 4) {
             continue;
         }
-        std::cout << i << std::endl;
+        std::cout << i << "\n";
     }
 
 
