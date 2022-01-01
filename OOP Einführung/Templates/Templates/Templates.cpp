@@ -8,10 +8,10 @@
 #include <iostream>
 
 /*
-    In C ++ können zwei verschiedene Funktionen denselben Namen haben, 
-    wenn ihre Parameter unterschiedlich sind. entweder weil sie eine andere Anzahl 
-    von Parametern haben oder weil einer ihrer Parameter von einem anderen Typ ist. 
-    Als beispiel nehme ich das Beispiel aus Überladenen Funktionen 
+    In C ++ können zwei verschiedene Funktionen denselben Namen haben,
+    wenn ihre Parameter unterschiedlich sind. entweder weil sie eine andere Anzahl
+    von Parametern haben oder weil einer ihrer Parameter von einem anderen Typ ist.
+    Als beispiel nehme ich das Beispiel aus Überladenen Funktionen
     @see https://github.com/sebcodes/cpp-basycs/tree/master/Funktionen/Funktionen
 
     Wo wir 2 Funktionen habe für unterschiedliche Datentypen.
@@ -22,18 +22,18 @@
     Ein Template wird mit "template" deklariert, danach kommt die definierte "Klasse" (Klassen erkläre ich demnächst)
     Damit hätten wir schon mal das Template erstellt, jetzt befüllen wir es mit Funktionen oder einfach Variablen
 
-    Die Funktionssumme könnte für viele Typen überladen sein, und es könnte sinnvoll sein, 
-    dass alle denselben Körper haben. In solchen Fällen kann C ++ Funktionen mit generischen Typen definieren, 
-    die als Funktionsvorlagen bezeichnet werden. Das Definieren einer Funktionsvorlage folgt der gleichen Syntax 
-    wie eine reguläre Funktion, außer dass das Schlüsselwort template und eine Reihe von Vorlagenparametern in 
+    Die Funktionssumme könnte für viele Typen überladen sein, und es könnte sinnvoll sein,
+    dass alle denselben Körper haben. In solchen Fällen kann C ++ Funktionen mit generischen Typen definieren,
+    die als Funktionsvorlagen bezeichnet werden. Das Definieren einer Funktionsvorlage folgt der gleichen Syntax
+    wie eine reguläre Funktion, außer dass das Schlüsselwort template und eine Reihe von Vorlagenparametern in
     spitzen Klammern <> vorangestellt sind:
 
         Template <Template-Parameter> Funktionsdeklaration
 
     Die Vorlagenparameter sind eine Reihe von Parametern, 
-    die durch Kommas getrennt sind. Diese Parameter können generische Vorlagentypen sein, 
-    indem entweder das Schlüsselwort class oder typename gefolgt von einem Bezeichner angegeben wird. 
-    Dieser Bezeichner kann dann in der Funktionsdeklaration verwendet werden, als wäre es ein regulärer Typ. 
+    die durch Kommas getrennt sind. Diese Parameter können generische Vorlagentypen sein,
+    indem entweder das Schlüsselwort class oder typename gefolgt von einem Bezeichner angegeben wird.
+    Dieser Bezeichner kann dann in der Funktionsdeklaration verwendet werden, als wäre es ein regulärer Typ.
     Zum Beispiel könnte eine generische Summenfunktion definiert werden als:
 
 
@@ -49,16 +49,16 @@ Benutzer setName(Benutzer name, Benutzer nachname) {
 }
 
 /*
-    Es spielt keine Rolle, ob der generische Typ in der Liste der Vorlagenargumente mit der Schlüsselwortklasse oder 
+    Es spielt keine Rolle, ob der generische Typ in der Liste der Vorlagenargumente mit der Schlüsselwortklasse oder
     dem Schlüsselworttyp angegeben wird (dies sind 100% Synonyme in Vorlagendeklarationen).
 
-    Es spielt keine Rolle, ob der generische Typ in der Liste der Vorlagenargumente mit der Schlüsselwortklasse oder 
+    Es spielt keine Rolle, ob der generische Typ in der Liste der Vorlagenargumente mit der Schlüsselwortklasse oder
     dem Schlüsselworttyp angegeben wird (dies sind 100% Synonyme in Vorlagendeklarationen).
 
-    Wenn wir im obigen Code "Benutzer" deklarieren (ein generischer Typ innerhalb der in spitzen Klammern eingeschlossenen 
-    Vorlagenparameter), kann SomeType wie jeder andere Typ an einer beliebigen Stelle in der Funktionsdefinition verwendet 
-    werden. Es kann als Typ für Parameter, als Rückgabetyp oder zum Deklarieren neuer Variablen dieses Typs verwendet werden. 
-    In allen Fällen handelt es sich um einen generischen Typ, der zum Zeitpunkt der Instanziierung 
+    Wenn wir im obigen Code "Benutzer" deklarieren (ein generischer Typ innerhalb der in spitzen Klammern eingeschlossenen
+    Vorlagenparameter), kann SomeType wie jeder andere Typ an einer beliebigen Stelle in der Funktionsdefinition verwendet
+    werden. Es kann als Typ für Parameter, als Rückgabetyp oder zum Deklarieren neuer Variablen dieses Typs verwendet werden.
+    In allen Fällen handelt es sich um einen generischen Typ, der zum Zeitpunkt der Instanziierung
     der Vorlage festgelegt wird.
 */
 
