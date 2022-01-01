@@ -8,12 +8,12 @@
 #include <iostream>
 
 /*
-    Eine WhileSchleife ist eine Kopfgesteuerte Schleife,  sie läuft solange wie die bedingung wahr ist.
+    Eine WhileSchleife ist eine Kopfgesteuerte Schleife, sie läuft solange die bedingung wahr ist.
 
     Struktur:
     while (Bedingung){
-    Anweisung1; 
-    Anweisung2;
+        Anweisung1; 
+        Anweisung2;
     }
 
 

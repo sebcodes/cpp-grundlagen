@@ -31,7 +31,7 @@ int main()
 
     //Folgendes gibt "Tesla" aus.
 
-    std::cout << "E-Auto ist: " << cars[0] << std::endl;
+    std::cout << "E-Auto ist: " << cars[0] << "\n";
 
 
     /*
@@ -39,7 +39,7 @@ int main()
         Der Index 0 wird mit einem neuen Wert überschrieben, also statt "Tesla" nun "Opel"
     */
     cars[0] = "Opel";
-    std::cout << "Auto waere nun ein: " << cars[0] << std::endl;
+    std::cout << "Auto waere nun ein: " << cars[0] << "\n";
 
     /*
     Arrays in Verbindung mit Schleifen
@@ -48,28 +48,26 @@ int main()
     */
     for (int i = 0; i < 4; i++) {
         //i startet bei 0, somit wird wie wir oben gelernt haben der erste Wert ausgeben usw. bis 4
-        std::cout << cars[i] << std::endl;
+        std::cout << cars[i] << "\n";
     }
-    /*
-    Eine Schleife die 5 Werte nacheinander einließt und alle werte in das array "zahlen" speichert
-    
-    */
+
+    //Eine Schleife die 5 Werte nacheinander einließt und alle werte in das Array "zahlen" speichert
     const int wert = 5;
     int zahlen[wert];
     for (size_t i = 0; i < wert; i++)
     {
-        std::cout << "Bitte gebe die Zahl für die Stelle #" << i << " ein: " << std::endl;
+        std::cout << "Bitte gebe die Zahl für die Stelle #" << i << " ein: " << "\n";
         // Auf die Elemente des Arrays wird wie gewohnt zugegriffen.
         std::cin >> zahlen[i];
-        std::cout << std::endl;
+        std::cout << "\n";
         
     }
 
-    //Alle werte ausgeben:
+    //Alle Werte ausgeben:
     for (size_t i = 0; i < wert; i++)
     {
         // Auf die Elemente des Arrays wird wie gewohnt zugegriffen.
-        std::cout << "Wert an stelle #" << i << " " << zahlen[i] << std::endl;
+        std::cout << "Wert an stelle #" << i << " " << zahlen[i] << "\n";
     }
 
     (void)getchar();

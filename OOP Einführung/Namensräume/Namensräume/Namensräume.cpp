@@ -80,11 +80,11 @@ int main()
     */
 
     //Ausgabe : Sebastian
-    std::cout << Benutzer::BenutzerName << std::endl;
+    std::cout << Benutzer::BenutzerName << "\n";
 
     //Hier die Ausgabe von "ü" aus dem Namespace "Umlaute":
 
-    std::cout << "Unser ue : " << Umlaute::ue << std::endl;
+    std::cout << "Unser ue : " << Umlaute::ue << "\n";
 
     
     (void)getchar();
